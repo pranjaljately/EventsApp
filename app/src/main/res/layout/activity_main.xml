@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.events.MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/imageButton"
+        android:layout_width="147dp"
+        android:layout_height="81dp"
+        android:text="Event Location"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/GotoUpcomingEventsScreen"
+        android:layout_width="147dp"
+        android:layout_height="81dp"
+        android:text="Upcoming and Past Events"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"  />
+
+    <Button
+        android:id="@+id/tempButtom"
+        android:layout_width="147dp"
+        android:layout_height="81dp"
+        android:text="Login/Sign up"
+        android:onClick="tempLogin"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+    <Button
+        android:id="@+id/tempHome"
+        android:layout_width="147dp"
+        android:layout_height="81dp"
+        android:text="Homepage"
+        android:onClick="tempHome"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/Gotolist"
+        android:layout_width="147dp"
+        android:layout_height="81dp"
+        android:text="List"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/Gotodetails"
+        android:layout_width="147dp"
+        android:layout_height="81dp"
+        android:text="Details"
+        android:textSize="14sp" />
+
+
+
+</android.support.v7.widget.LinearLayoutCompat>

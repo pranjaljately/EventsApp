@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.events.activity_upcoming_events">
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/ic_add_white_24dp"
+        android:title=""
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/log_out"
+        android:title="log out"
+        app:showAsAction="always" />
+
+
+</menu>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.events.LIST">
+
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="398dp"
+        android:layout_above="@+id/addbutton"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edittext"
+        tools:ignore="MissingConstraints,UnknownId"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="58dp"
+        android:focusable="false"
+        android:listSelector="@android:color/holo_blue_light"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true">
+
+    </ListView>
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:text=""
+        android:layout_alignParentLeft="true" />
+    android:layout_below="@+id/display"
+
+    <Button
+        android:id="@+id/addbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="add"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="463dp"
+        android:layout_alignParentLeft="true" />
+
+
+
+</RelativeLayout>
+
+
